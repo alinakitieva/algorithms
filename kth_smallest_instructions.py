@@ -30,7 +30,7 @@ class Solution:
             else:
                 right = dp[V][H+1]
                 # right is the number of ways to reach the destination
-                # if we will turn right
+                # if we turn right
                 if k > right:
                     k -= right
                     answer = answer+"V"
